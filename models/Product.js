@@ -10,7 +10,7 @@ var Product = new keystone.List('Product',{
 
 Product.add({
   title: {type: String, required: true},
-  price: {tyep: Number},
+  price: {type: Number},
   qty:{type: Number},
   description: {type: Types.Html, wyswiyg: true, height: 300},
   image: {type: Types.CloudinaryImage},

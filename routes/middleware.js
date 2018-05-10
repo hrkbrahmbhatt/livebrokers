@@ -22,6 +22,8 @@ exports.initLocals = function (req, res, next) {
 		{ label: 'Home', key: 'home', href: '/' },
 		{ label: 'Blog', key: 'blog', href: '/blog' },
 		{ label: 'Gallery', key: 'gallery', href: '/gallery' },
+		{ label: 'SignUp', key: 'SignUp', href: '/SignUp' },
+		{ label: 'Login', key: 'Login', href: '/Login' },
 		{ label: 'Store', key: 'store', href: '/products' },
 		{ label: 'Contact', key: 'contact', href: '/contact' },
 
